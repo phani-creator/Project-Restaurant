@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Result
+        </title>
+        <style>
+            body{
+                background-image: url("https://www.thehotelconversation.com.au/sites/default/files/receptionlounge.jpg");
+                background-size: 100%;
+                text-align: center;
+                color:chartreuse;
+            }
+            
+        </style>
+    </head>
+    <body>
+        <h1>The Restaurant Details Mentioned According TO Your Recipie Are Given Below</h1>
+
+
+        <p>Recipie=</p>
+        <%= result[0].Recipies %>
+        <br>
+        <p>Restaurant = </p>
+        <%= result[0].Restaurants %>
+        <br>
+        <p>Address =</p>
+        <%= result[0].Address %>
+        
+    </body>
+</html>
